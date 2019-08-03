@@ -101,7 +101,7 @@ https://www.tooplate.com/view/2115-marvel
                         <p>Coder is a person who writes computer programs. The term computer programmer can refer to a specialist in one area of computers, or to a generalist who writes code for many kinds of software.</p>
                         
                         <div class="custom-btn-group mt-4">
-                            <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                            <a onclick="window.open('file:///E:/template%20web/marvel-master/marvel-master/halo.docx')" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
                             <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
                         </div>
                     </div>
@@ -111,9 +111,8 @@ https://www.tooplate.com/view/2115-marvel
                     <div class="about-image svg">
                         <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
                     </div>
-                </div>
-
-            </div>
+                </div>  
+              </div>
         </div>
     </section>
 
@@ -163,7 +162,13 @@ https://www.tooplate.com/view/2115-marvel
                 <div class="col-lg-6 col-12">
                     <div class="about-text">
                       <h1 class="animated animated-text">
-                          <span class="mr-2">:) </span>
+                          <span class="mr-2">
+
+                            <body onload="startTime()">
+                                <div id="txt"></div>
+                              
+                            </body>
+                          </span>
                               <div class="animated-info" >
                                   <span class="animated-item"><script language="JavaScript">
                         var h=(new Date()).getHours();
@@ -179,8 +184,8 @@ https://www.tooplate.com/view/2115-marvel
                                         var h=(new Date()).getHours();
                                         var m=(new Date()).getMinutes();
                                         var s=(new Date()).getSeconds();
-                                        if (h > 6 || h <  8 ) document. writeln("Breakfast fast fast!!");
-                                        if (h > 12 || h <  1 ) document. writeln("Break! Your stomatch need food");
+                                        if (h > 6 && h <  8 ) document. writeln("Breakfast fast fast!!");
+                                        if (h > 12 && h <  1 ) document. writeln("Break! Your stomatch need food");
                                             </script></span>
                               </div>
                       </h1>   
@@ -221,12 +226,12 @@ https://www.tooplate.com/view/2115-marvel
                     <div class="row">
                       <div class="col-xl-4">
                         <div class="section-title">
-                          <h2>Languages</h2>
+                          <h2>Tools</h2>
                         </div>
                         <ul class="language-progress">
-                          <li>English <div class="lan-prog" data-lanprogesss="5"></div></li>
-                          <li>Spanish <div class="lan-prog" data-lanprogesss="4"></div></li>
-                          <li>Chinesse <div class="lan-prog" data-lanprogesss="3"></div></li>
+                          <li>VS Code <div class="lan-prog" data-lanprogesss="5"></div></li>
+                          <li>Photoshop <div class="lan-prog" data-lanprogesss="4"></div></li>
+                          <li>Premiere <div class="lan-prog" data-lanprogesss="3"></div></li>
                         </ul>
                       </div>
                       <div class="col-xl-8 pt-5 pt-lg-0">
